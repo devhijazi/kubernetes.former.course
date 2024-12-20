@@ -5,7 +5,7 @@ metadata:
   name: my-pod
   labels:
     apps: my-app
-    tier: frontend
+    tier: example
 
 spec:
   containers:

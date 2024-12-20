@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: frontend-rs
+  name: example-name
   labels:
-    app: frontend
+    app: example
 spec:
   template:
     metadata:
       name: my-pod-webserver
       labels:
         apps: my-app
-        tier: frontend
+        tier: example
     spec:
       containers:
         - name: my-container-nginx
